@@ -31,7 +31,7 @@ export function isDev(account: AccountRoles): boolean {
 	return hasRole(account, 'dev');
 }
 
-(!!!) export function is<Some-tag>(account: AccountRoles): boolean {
+(!!!) export function --> is<Some-tag>(account: AccountRoles): boolean {
 -->	return hasRole(account, '<tag-name>');
 }
 
