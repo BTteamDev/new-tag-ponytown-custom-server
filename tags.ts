@@ -45,7 +45,7 @@ export function canUseTag(account: AccountRoles, tag: string) {
 		return hasRole(account, 'mod');
 	} else if (tag === 'dev' || /^dev:/.test(tag)) {
 		return hasRole(account, 'dev');
-	} (!!!) --> else if (tag === '<tag-name>') {
+(!!!)	} --> else if (tag === '<tag-name>') {
 		--> return hasRole(account, '<tag-name>');
 	} else {
 		return false;
