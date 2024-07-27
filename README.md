@@ -1,5 +1,5 @@
 # new-tag-ponytown-custom-server
-That guide is mainly for beginners.
+This guide is mainly for beginners.
 
 To add a new tag you need:
   - Open "tags.ts" file
