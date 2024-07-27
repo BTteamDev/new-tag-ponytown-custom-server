@@ -10,6 +10,6 @@ To add a new tag you need:
   - Open "_variables.scss" file
   - Open "pony-box.scss" file
 
-The "(!!!)" sign indicates something that definitely needs to be added.
+The "(!!!)" and "-->" sign indicates something that definitely needs to be added.
 
 Regards, bodutop.
