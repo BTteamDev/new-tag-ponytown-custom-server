@@ -33,7 +33,7 @@ export function isDev(account: AccountRoles): boolean {
 
 (!!!) export function --> is<Some-tag>(account: AccountRoles): boolean {
 -->	return hasRole(account, '<tag-name>');
-}
+} //function of custom player role
 
 export function meetsRequirement(account: AccountSupporter, require: string | undefined): boolean {
 	return !require || hasRole(account, require) || meetsSupporterRequirement(account, require);
