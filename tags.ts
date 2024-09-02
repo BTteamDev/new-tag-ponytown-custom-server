@@ -5,7 +5,7 @@ import { hasRole, AccountRoles } from './accountUtils';
 const placeholder = { id: '', tagClass: '', label: '' };
 const tags: { [key: string]: CharacterTag; } = {
 	'mod': { ...placeholder, name: 'moderator', className: 'mod', color: MOD_COLOR },
-(!!!) '<tag-name>': { ...placeholder, name: '<some-text>', className: '<tag-class>', color: SOME_TAG_COLOR },
+(!!!) '<tag-name>': { ...placeholder, name: '<some-text>', className: '<tag-class>', color: SOME_TAG_COLOR } //a new tag on character prewiev
 	'dev': { ...placeholder, name: 'developer', className: 'dev', color: ADMIN_COLOR },
 	'dev:art': { ...placeholder, name: 'dev artist', className: 'dev', color: ADMIN_COLOR },
 	'dev:music': { ...placeholder, name: 'dev musician', className: 'dev', color: ADMIN_COLOR },
@@ -46,7 +46,7 @@ export function canUseTag(account: AccountRoles, tag: string) {
 	} else if (tag === 'dev' || /^dev:/.test(tag)) {
 		return hasRole(account, 'dev');
 (!!!)	} --> else if (tag === '<tag-name>') {
-		--> return hasRole(account, '<tag-name>');
+		--> return hasRole(account, '<tag-name>'); //shouce a tag from admin panel
 	} else {
 		return false;
 	}
