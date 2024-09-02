@@ -34,7 +34,13 @@ export const OUTLINE_COLOR = withAlphaFloat(BLACK, 0.4);
 export const PATREON_COLOR = 0xf86754ff;
 export const WHISPER_COLOR = 0xffa1dfff;
 export const FRIENDS_COLOR = 0x71ff7fff;
+
+// !!! 
+
 (!!!) export const SOME_TAG_COLOR = 0x<hex-color-code>ff; //a variable of custom color tag (hex-color with 0x and ff) 
+
+// !!! 
+
 
 export const SUPPORTER1_COLOR = PATREON_COLOR;
 export const SUPPORTER2_COLOR = 0xffa32bff;
