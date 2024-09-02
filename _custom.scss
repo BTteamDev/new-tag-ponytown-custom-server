@@ -57,7 +57,7 @@ code {
 
 (!!!) .badge-<tag-class> {
 	@include badge-variant($<some-var>);
-}
+} //tag badges in tags list
 
 .badge-dev {
 	@include badge-variant($dev);
