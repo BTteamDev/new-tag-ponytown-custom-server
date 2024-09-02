@@ -4,7 +4,7 @@ import {
 
 export const ITEM_LIMIT = 1000;
 
-(!!!) export const ROLES = ['superadmin', 'admin', 'mod', 'dev', --> '<tag-name>'];
+(!!!) export const ROLES = ['superadmin', 'admin', 'mod', 'dev', --> '<tag-name>']; //choice a tag buttons in anmin panel
 
 export const SERVER_LABELS: { [key: string]: string; } = {
 	'dev': 'badge-test',
